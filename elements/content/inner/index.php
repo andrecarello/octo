@@ -1,1 +1,1 @@
-<p>content -> inner -> index.php</p>
+<p id="user"></p>

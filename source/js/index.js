@@ -1,8 +1,7 @@
-import {user} from "./user"
+import { user } from './user';
 
+$('document').ready(() => {
+    const element = $('#user');
 
-document.onload = () => {
-    const element = document.querySelector('#user')
-
-    element.innerHTML = `${user.name} ${user.lastName}`
-}
+    $(element).html(`${user().name} ${user().lastName}`)
+})

@@ -1,6 +1,10 @@
 {
     "/assets/js/index.js": "/assets/js/index.js",
     "/assets/css/index.css": "/assets/css/index.css",
+    "/assets/css/vendors.css": "/assets/css/vendors.css",
     "/assets/js/vendors.js": "/assets/js/vendors.js",
-    "/assets/css/vendors.min.css": "/assets/css/vendors.min.css"
+    "/assets/css/index.min.css": "/assets/css/index.min.css",
+    "/assets/css/vendors.min.css": "/assets/css/vendors.min.css",
+    "/assets/js/index.min.js": "/assets/js/index.min.js",
+    "/assets/js/vendors.min.js": "/assets/js/vendors.min.js"
 }

@@ -85,7 +85,7 @@
 
     <!-- BEGIN: CSS -->
     <?php echo css('assets/css/vendors.min'); ?>
-    <?php echo css('assets/css/index'); ?>
+    <?php echo css('assets/css/index.min'); ?>
     <!-- END: CSS -->
 
     <!-- BEGIN: SCRIPTS -->

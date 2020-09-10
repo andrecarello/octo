@@ -1,0 +1,49 @@
+// define [ language ]
+$lang: 'en';
+
+
+// define [ locations ]
+$fonts_location:        '../fonts/';
+$images_location:       '../images/';
+$backgrounds_location:  '#{$images_location}backgrounds/';
+
+
+// define [ suffix and preffix ]
+$prefix:    '';
+$suffix:    '';
+
+// define [ spaces ]
+$gutter: 20px;
+$margin: 20px;
+
+
+// define [ breapoints ]
+$breakpoints: (
+        sm  :   576px,
+        md  :   768px,
+        lg  :   992px,
+        xl  :   1200px
+) !default;
+
+// define [ system colors ]
+$pure_yellow:    #FEC200;
+$orange:         #FE9713;
+$vivid_red:      #FF5A30;
+$light_magenta:  #FF3BFF;
+$green:          #2ED775;
+$blue:           #27C5D9;
+$grey:           #707070;
+$red:            #FE4848;
+
+
+// create [ colors array ]
+$colors: (
+    'pure-yellow' $pure_yellow,
+    'orange' $orange,
+    'vivid-red' $vivid_red,
+    'light-magenta' $light_magenta,
+    'green' $green,
+    'blue' $blue,
+    'grey' $grey,
+    'red' $red
+)

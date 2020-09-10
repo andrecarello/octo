@@ -12,16 +12,16 @@ let mix = require('laravel-mix');
  */
 
 mix
-	.js('./source/js/index.js', './assets/js')
+    .js('./source/js/index.js', './assets/js')
+    // .js('./vendors/js/vendors.js', './assets/js')
 	.sass('./source/sass/index.scss', './assets/css')
+	.sass('./vendors/css/vendors.scss', './assets/css')
 	.combine(
 		[ './vendors/js/jquery.slim.min.js', './vendors/js/popper.min.js', './vendors/js/bootstrap-4.min.js' ],
 		'./assets/js/vendors.js'
     )
-    .combine(
-        ['./vendors/css/bootstrap-4.min.css'],
-        './assets/css/vendors.min.css'
-    )
+	.minify([ './assets/css/index.css', './assets/css/vendors.css' ])
+	.minify([ './assets/js/index.js', './assets/js/vendors.js' ]);
 
 // Full API
 // mix.js(src, output);
